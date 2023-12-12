@@ -1,0 +1,35 @@
+.player_container {
+  font-size: 25px;
+  width: 20%;
+
+  .player_name {
+    padding-bottom: 7px;
+  }
+
+  .playing {
+    border-color: rgba(121, 16, 20, 0.74);
+    border-bottom: 4px solid transparent;
+    animation: pulsate 2s infinite;
+  }
+
+  p {
+    font-size: 60px;
+    color: #791014;
+  }
+  .winner {
+    font-size: 40px;
+    color: rgb(40, 128, 21);
+  }
+}
+
+@keyframes pulsate {
+  50% {
+    border-color: rgba(203, 150, 19, 0.84);
+    transform: scale(1.1);
+  }
+  0%,
+  100% {
+    border-color: rgb(190, 141, 36);
+    transform: scale(1);
+  }
+}
