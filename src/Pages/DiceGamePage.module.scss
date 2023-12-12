@@ -9,6 +9,11 @@
     margin-bottom: 0.625rem;
   }
 
+  .tie {
+    font-size: 40px;
+    color: #154d2e;
+  }
+
   .flexed {
     display: flex;
     width: 70vw;
@@ -17,14 +22,9 @@
     align-items: center;
   }
 
-  .buttons {
+  .buttons_container {
     display: flex;
     gap: 30px;
-
-    .button_icon {
-      width: 50px;
-      height: 50px;
-    }
   }
 
   .dices_score_container {
@@ -39,8 +39,15 @@
     }
 
     .score {
-      font-size: 2.5rem;
-      color: #791014;
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      justify-content: center;
+      p {
+        font-size: 2.5rem;
+        color: #791014;
+      }
     }
+
   }
 }

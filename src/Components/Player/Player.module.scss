@@ -6,9 +6,9 @@
     padding-bottom: 7px;
   }
 
-  .playing {
+  .is_currently_playing {
     border-color: rgba(121, 16, 20, 0.74);
-    border-bottom: 4px solid transparent;
+    border-bottom: 5px solid transparent;
     animation: pulsate 2s infinite;
   }
 
@@ -16,6 +16,7 @@
     font-size: 60px;
     color: #791014;
   }
+
   .winner {
     font-size: 40px;
     color: rgb(40, 128, 21);

@@ -11,7 +11,7 @@ const Player = (props: PlayerInterface) => {
     <div className={styles.player_container}>
       <div
         className={`${styles.player_name} ${
-          props.isCurrentlyPlaying ? styles.playing : ""
+          props.isCurrentlyPlaying ? styles.is_currently_playing : ""
         }`}
       >
         {props.playerName}
